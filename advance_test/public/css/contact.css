@@ -1,0 +1,101 @@
+
+header {
+text-align: center;
+}
+
+input,textarea {
+  border:none;
+  outline:solid 1px #ddd;
+}
+
+textarea{
+  resize: none;
+
+}
+
+
+.contact__name {
+width: 20%;
+}
+
+
+.contact{
+  width:100%;
+  height:80vmin;
+  margin:0 auto;
+}
+
+.contact th{
+  text-align: left;
+}
+
+.contact__form{
+  width:75%;
+  margin:auto auto;
+}
+.contact__table{
+  width:75%;
+  margin:auto auto;
+  border-collapse: collapse;
+}
+
+.contact__fullname{
+    display: flex;
+      justify-content: space-between;
+      width: 98%;
+}
+
+.contact__name{
+  width:48%;
+}
+
+.contact__example{
+  color:#aaa;
+  line-height: 40px;
+}
+
+.contact__example__fullname{
+  display:flex;
+  justify-content: space-between;
+  width:98%;
+}
+.contact__example__name{
+  display:inline-block;
+  width:48%;
+  margin:0px auto 8px;
+}
+
+.postcode{
+  width:95%;
+}
+
+.contact__forms{
+  width:99%;
+}
+
+.error-message{
+  color:red
+}
+
+.to-confirm{
+  text-align: center;
+  height:48px;
+}
+.to-confirm_btn{
+  text-align: center;
+  width:80px;
+  color:white;
+  background-color:#444;
+  border:none;
+  border-radius:25px;
+  padding:5px;
+}
+
+.index_opinion{
+  vertical-align: top;
+}
+
+.t_head{
+  border: solid 1px red;
+}
+
